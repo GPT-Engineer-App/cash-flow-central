@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#fff1e5" color="black" py={4}>
         <Flex justify="space-between" align="center" px={8}>
           <Heading size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -18,7 +18,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" py={10}>
+      <Box bg="#f3f2f1" py={10}>
         <Container maxW="container.lg">
           <VStack spacing={4} align="start">
             <Heading size="2xl">Featured Article Headline</Heading>
@@ -28,7 +28,7 @@ const Index = () => {
       </Box>
 
       {/* Additional Articles Grid */}
-      <Container maxW="container.lg" py={10}>
+      <Container maxW="container.lg" py={10} bg="#ffffff">
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
           <Box bg="white" p={6} boxShadow="md">
             <Heading size="md">Article Title 1</Heading>
@@ -58,7 +58,7 @@ const Index = () => {
       </Container>
 
       {/* Footer */}
-      <Box bg="gray.800" color="white" py={6}>
+      <Box bg="#fff1e5" color="black" py={6}>
         <Container maxW="container.lg">
           <Flex justify="space-between" align="center">
             <Text>&copy; 2023 Financial Times</Text>
